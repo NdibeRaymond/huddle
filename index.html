@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Huddle landing page with curved sections</title>
+   <link rel="stylesheet" href="css/master.css">
+   <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.min.css"> -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <header class="header">
+    <img class="img" src="images/logo.svg" alt="huddle logo">
+    <button class="btn btn--sm btn--inverse" type="button" name="button">Sign in</button>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="">
+        <h1 class="h h--1">Building The Community Yours Fans Will Love</h1>
+        <p class="p">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+        </p>
+        <a class="btn btn--lg btn--primary" href="#">Get Started For Free</a>
+      </div>
+
+      <img class="img" src="images/screen-mockups.svg" alt="computer and mobile phone screen mockups">
+    </section>
+
+
+    <section class="stats">
+      <div class="stats__div">
+        <div class="">
+          <img class="img" src="images/icon-communities.svg" alt="">
+        </div>
+        <h1>1.4K+</h1>
+        <p>Lorem ipsum dolor sit amet</p>
+      </div>
+      <div class="stats__div">
+        <div class="">
+          <img class="img" src="images/icon-messages.svg" alt="">
+        </div>
+        <h1>2.7m+</h1>
+        <p>Lorem ipsum dolor sit</p>
+      </div>
+    </section>
+
+    <section class="grow">
+      <picture>
+        <source class="content__curve" media="(min-width: 768px)" srcset="images/bg-section-top-desktop-1.svg">
+        <source class="content__curve" media="(min-width: 378px)" srcset="images/bg-section-top-mobile-1.svg">
+        <img class="content__curve" src="images/bg-section-top-mobile-1.svg" alt="">
+      </picture>
+      <div class="content__div content--reverse">
+        <img class="content img" src="images/illustration-grow-together.svg" alt="">
+        <div class="content">
+          <h2>Grow Together</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim</p>
+        </div>
+      </div>
+      <picture>
+        <source class="content__curve" media="(min-width: 768px)" srcset="images/bg-section-bottom-desktop-1.svg">
+        <source class="content__curve" media="(min-width: 378px)" srcset="images/bg-section-bottom-mobile-1.svg">
+        <img class="content__curve" src="images/bg-section-bottom-mobile-1.svg" alt="">
+      </picture>
+    </section>
+
+    <section class="conversation">
+      <div class="content__div no_curve">
+        <img class="content img" src="images/illustration-flowing-conversation.svg" alt="">
+        <div class="content">
+          <h2>Flowing Conversation</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim</p>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="users">
+      <picture>
+        <source class="content__curve" media="(min-width: 768px)" srcset="images/bg-section-top-desktop-2.svg">
+        <source class="content__curve" media="(min-width: 378px)" srcset="images/bg-section-top-mobile-2.svg">
+        <img class="content__curve" src="images/bg-section-top-mobile-2.svg" alt="">
+      </picture>
+      <div class="content__div content--reverse">
+        <img class="content img" src="images/illustration-your-users.svg" alt="">
+        <div class="content">
+          <h2>Your Users</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim</p>
+        </div>
+      </div>
+      <picture>
+        <source class="content__curve" media="(min-width: 768px)" srcset="images/bg-section-bottom-desktop-2.svg">
+        <source class="content__curve" media="(min-width: 378px)" srcset="images/bg-section-bottom-mobile-2.svg">
+        <img class="content__curve" src="images/bg-section-bottom-mobile-2.svg" alt="">
+      </picture>
+    </section>
+
+    <section class="call-to-action">
+      <h2 class="call-to-action__h2">Ready to build your community?</h2>
+      <a class="btn btn--lg btn--primary" href="#">Get Started For Free</a>
+
+    </section>
+
+  </main>
+  <footer>
+    <picture>
+      <source class="content__curve" media="(min-width: 768px)" srcset="images/bg-footer-top-desktop.svg">
+      <source class="content__curve" media="(min-width: 378px)" srcset="images/bg-footer-top-mobile.svg">
+      <img class="content__curve" src="images/bg-footer-top-mobile.svg" alt="">
+    </picture>
+
+    <div class="footer__content">
+      <!-- <div class="footer__social_and_newsletter"> -->
+        <section class="footer__newsletter">
+          <h2 class="white">Newsletter</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim</p>
+          <form class="footer__newsletter__form">
+            <input class="footer__newsletter__form__input" type="text" name="" value="" placeholder="Email Address">
+            <button class="btn--primary footer__newsletter__form__button" type="submit" name="button">Subscribe</button>
+          </form>
+        </section>
+
+        <section class="footer__social">
+          <img class="img white huddle-icon" src="images/logo.svg" alt="huddle logo">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim</p>
+          <h4 class="footer__social__contact"><i class="fa fa-phone" aria-hidden="true"></i>&nbsp; +2349035234033</h4>
+          <h4 class="footer__social__contact"><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp; ndiberaymond1@gmail.com</h4>
+
+          <div class="footer__social__div">
+            <i class="footer__social__div__i fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+            <i class="footer__social__div__i fa fa-instagram fa-2x" aria-hidden="true"></i>
+            <i class="footer__social__div__i fa fa-twitter-square fa-2x" aria-hidden="true"></i>
+          </div>
+        </section>
+      <!-- </div> -->
+    </div>
+    <div class="attribution">
+      <h3 class="attribution__h3">
+        Coded with <i class="attribution__icon--red fa fa-heart" aria-hidden="true"></i> by <a class="attribution__a" href="https://raymond-ndibe.netlify.com" target="__blank">Raymond</a>
+      </h3>
+    </div>
+  </footer>
+</body>
+</html>
